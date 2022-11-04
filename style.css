@@ -1,0 +1,258 @@
+body {
+    background-color: #e5dad8;
+    height: 100%;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 20vh;
+    margin-top: -50px;
+    margin-bottom: -50px;
+}
+
+#links {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.a {
+    text-decoration: none;
+    color: #1e3f48;
+    font-size: 20px;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.a:hover{
+    color: #6893a1;
+}
+
+.dropbtn {
+    cursor: pointer;
+    border: none;
+    background-color: #e5dad8;
+    color: #1e3f48;
+    font-size: 20px;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.dropbtn:hover{
+    color: #6893a1;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+    
+    
+}
+
+.dropdown-content input {
+    display: block;
+    margin-top: 10px;
+}
+
+.show {display: block;}
+
+#bookWrapper {
+    border: 1px solid black;
+    width: 275px;
+    height: 500px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 10px 15px black;
+    
+}
+
+#listOfBookWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    
+}
+
+#bookDescriptor {
+    font-size: large;
+    text-align: center;
+    margin: 30px;
+    background-color: #D4A373;
+    border: 1px solid black;
+    padding: 1px;
+}
+
+#bookSubjects {
+    border: 1px solid black;
+    margin: 10px;
+    background-color: #e5dad8;
+    padding: 5px;
+    font-style: italic;
+}
+
+.input {
+    border: 2px solid #1e3f48;
+    color: #1e3f48;
+}
+
+#addBookButton {
+    margin-top: 5px;
+    background-color: #1e3f48;
+    color: white;
+}
+
+#navLine {
+    height: 5px;
+    background-color: #1e3f48;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#titleAndParagraphBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#aboutTitle {
+    color: #1e3f48;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#aboutParagraph {
+    text-align: center;
+    color: #1e3f48;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 50px;
+}
+
+#contactBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#messageInput {
+    width: 300px;
+    height: 150px;
+    margin-top: 5px;
+}
+
+#emailInput{
+    margin-top: 5px;
+}
+
+#sendButton {
+    margin-top: 5px;
+    background-color: #1e3f48;
+    color: white;
+}
+
+#sendButton:hover{
+    background-color: #6893a1;
+}
+
+#contactUs {
+    color: #1e3f48;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#contactP {
+    color: #1e3f48;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    width: 400px;
+}
+
+#commentButton {
+    width: 80px;
+    height: 20px;
+    margin-left:10px;
+    background-color: #e5dad8;
+    font-weight: bold;
+}
+
+
+
+#commentButton:hover{
+    background-color: #bdb2b1;
+}
+
+#commentInput {
+    display: none;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#commentAdd {
+    width: 40px;
+    height: 20px;
+    margin-left: 10px;
+    margin-top: 5px;
+    display: none;
+    background-color: #e5dad8;
+    font-weight: bold;
+}
+
+#commentText{
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    color: black;
+    background-color: #e5dad8;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 1px solid black;
+}
+
+#filters{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+#sortByTitle{
+    background-color: #1e3f48;
+    color: white;
+}
+
+#sortByTitle:hover{
+    background-color: #6893a1;
+}
+
+#sortByAuthor{
+    background-color: #1e3f48;
+    color: white;
+}
+
+#sortByAuthor:hover{
+    background-color: #6893a1;
+}
+
+#counter{
+    color: #1e3f48;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+}
+
+#logo{
+    width: 275px;
+}
+

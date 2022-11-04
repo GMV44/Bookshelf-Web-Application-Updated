@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<nav>
+    <a href="index.html"><img id="logo" src="./images/AndrewsBookshelfLogo.png" alt="logo"></a>
+    <div id="links">
+        <a class="a" href="about.html">About</a>
+        <a class="a" href="contact.html">Contact</a>
+        <div class="dropdown">
+        <button onclick= "myFunction()" class="dropbtn">Submit Book</button>
+        <div id="myDropdown" class="dropdown-content">
+            <input id="addAuthorInput" class="input" placeholder="Author Name" type="text">
+            <input id="addLanguageInput" class="input" placeholder="Language of Book" type="text">
+            <input id="addSubjectsInput" class="input" placeholder="Book Subjects" type="text">
+            <input id="addTitleInput" class="input" placeholder="Title" type="text">
+            <button id="addBookButton">Add Book</button>
+        </div>
+    </div>
+    </div>
+</nav>
+<hr id="navLine">
+<div id="filters">
+<button id="sortByTitle">Sort By Title</button>
+<button id="sortByAuthor">Sort By Author</button>
+<span id="counter"></span>
+</div>
+<body>
+    
+</body>
+<script src="book-data.js"></script>
+<script src="index.js"></script>
+</html>
+
